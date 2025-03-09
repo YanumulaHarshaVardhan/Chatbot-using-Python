@@ -1,0 +1,101 @@
+{
+        "intents": [
+          {
+            "tag": "greeting",
+            "patterns": ["Hello", "Hi", "Hey", "Good morning", "Good evening"],
+            "responses": ["Hello!", "Hi there!", "Hey! How can I assist you today?"]
+          },
+          {
+            "tag": "goodbye",
+            "patterns": ["Bye", "Goodbye", "See you later", "Take care"],
+            "responses": ["Goodbye!", "See you soon!", "Take care and have a great day!"]
+          },
+          {
+            "tag": "thanks",
+            "patterns": ["Thanks", "Thank you", "I appreciate it"],
+            "responses": ["You're welcome!", "No problem!", "Happy to help!"]
+          },
+          {
+            "tag": "weather",
+            "patterns": ["What’s the weather like?", "Is it raining?", "Tell me the weather"],
+            "responses": ["I can't check the weather right now, but you can try a weather website."]
+          },
+          {
+            "tag": "bot_info",
+            "patterns": ["What can you do?", "Who are you?", "Tell me about yourself"],
+            "responses": ["I am a chatbot that can answer your questions. How can I help?"]
+          },
+          {
+            "tag": "programming",
+            "patterns": ["What is deep learning?", "Tell me about learning", "How does machine learning work?"],
+            "responses": [
+              "Deep learning is a subset of machine learning, which itself is a subset of artificial intelligence (AI). It refers to the use of neural networks with many layers to model complex patterns and representations in data.",
+              " Deep learning models learn by processing large datasets, adjusting internal parameters (weights) using algorithms like backpropagation, and refining their predictions over time.",
+              "Machine learning (ML) works by allowing computers to automatically learn patterns from data and make decisions or predictions without being explicitly programmed for every task."
+            ]
+          },
+          {
+            "tag": "ai_definition",
+            "patterns": ["What is AI?", "Define artificial intelligence", "Explain AI"],
+            "responses": [
+              "Artificial Intelligence (AI) is the simulation of human intelligence in machines.",
+              "AI refers to systems that can perform tasks typically requiring human intelligence."
+            ]
+          },
+          {
+            "tag": "math_help",
+            "patterns": ["Solve 2+2", "What is 10 minus 3?", "Multiply 5 by 7"],
+            "responses": ["I can't compute directly, but you can try a calculator!"]
+          },
+          {
+            "tag": "fun_fact",
+            "patterns": ["Tell me a fun fact", "Give me an interesting fact"],
+            "responses": [
+              "Did you know that honey never spoils?",
+              "An octopus has three hearts!",
+              "Bananas are berries, but strawberries are not!"
+            ]
+          },
+          {
+            "tag": "jokes",
+            "patterns": ["Tell me a joke", "Make me laugh", "Do you know any jokes?"],
+            "responses": [
+              "Why don’t skeletons fight each other? They don’t have the guts!",
+              "What do you call fake spaghetti? An impasta!",
+              "Why was the math book sad? It had too many problems!"
+            ]
+          },
+          {
+            "tag": "python",
+            "patterns": ["What is Python?", "python", "what about python?"],
+            "responses": [
+              "Python is a high-level, interpreted programming language",
+              "Python is a high-level, interpreted programming language. This means that, unlike compiled languages (like C or Java), Python code is executed line-by-line by an interpreter at runtime.In Python, you don't need to compile your code into machine language before running it, which makes it easy to test and debug. The interpreter reads the source code and directly executes it, which is one of the reasons Python is known for being beginner-friendly and having a fast development cycle."
+            ]
+          },
+          {
+            "tag": "java",
+            "patterns": ["What is java?", "java"],
+            "responses": [
+              "Java is a high-level, object-oriented programming language developed by Sun Microsystems (now owned by Oracle) and released in 1995.",
+              "Java is a high-level, object-oriented programming language developed by Sun Microsystems (now owned by Oracle) and released in 1995. It is designed to be platform-independent, meaning that Java code can run on any system that has the Java Virtual Machine (JVM) installed. "
+            ]
+          },
+          {
+            "tag": "data science",
+            "patterns": ["What is data science?", "data science"],
+            "responses": [
+              "Data Science is a multidisciplinary field that uses statistics, machine learning, programming, and domain knowledge to extract meaningful insights from data.",
+              "Data Science is a multidisciplinary field that uses statistics, machine learning, programming, and domain knowledge to extract meaningful insights from data. It involves collecting, analyzing, visualizing, and interpreting data to help businesses and organizations make informed decisions. "
+            ]
+          },
+          {
+            "tag": "data analysis",
+            "patterns": ["What is data analysis?"],
+            "responses": [
+              "Data Analysis is the process of inspecting, cleaning, transforming, and modeling data to extract useful insights, identify patterns, and support decision-making. It is a key component of Data Science and is widely used in businesses to improve efficiency and strategy."
+            ]
+          }
+        ]
+      }
+      
