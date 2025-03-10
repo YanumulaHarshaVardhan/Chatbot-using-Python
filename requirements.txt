@@ -1,4 +1,4 @@
 chatterbot
 chatterbot_corpus
-flask
+flask==3.1.0
 spacy
