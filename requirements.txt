@@ -2,4 +2,3 @@ chatterbot
 chatterbot_corpus
 flask
 spacy
-en-core-web-sm
